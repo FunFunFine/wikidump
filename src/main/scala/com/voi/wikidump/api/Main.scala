@@ -1,4 +1,4 @@
-package com.voi.wikidump
+package com.voi.wikidump.api
 
 import cats.effect.{ExitCode, IO, IOApp}
 import cats.implicits._
