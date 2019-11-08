@@ -12,8 +12,6 @@ trait Wiki[F[_]]{
 object Wiki {
   def apply[F[_]](implicit ev: Wiki[F]): Wiki[F] = ev
 
-  final case class JokeError(e: Throwable) extends RuntimeException
-
   def impl[F[_]: Sync]: Wiki[F] = new Wiki[F]{
     val dsl: Http4sClientDsl[F] = new Http4sClientDsl[F]{}
     def wiki(topic:String): F[PageData] = ???

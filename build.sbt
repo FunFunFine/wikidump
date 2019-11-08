@@ -20,7 +20,7 @@ lazy val root = (project in file("."))
       "io.circe" %% "circe-generic" % CirceVersion,
       "io.circe" %% "circe-generic-extras" % CirceVersion,
       "io.circe" %% "circe-parser" % CirceVersion,
-      "joda-time" %% "joda-time" % "2.10.5",
+      "org.joda" %% "joda-time" % "2.10.5",
       "org.reactivemongo" %% "reactivemongo" % ReactiveMongoVersion,
       "org.specs2" %% "specs2-core" % Specs2Version % "test",
       "ch.qos.logback" % "logback-classic" % LogbackVersion,
