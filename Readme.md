@@ -15,5 +15,9 @@
 ## What is coming
 * Поиск в MongoDB
 * Индекс в MongoDB
+* Web API
 * (Де)Сериализация данных в JSON/BSON корректно
 
+## What is coming 2.0
+* Поддержка MySql
+* pretty Web API
